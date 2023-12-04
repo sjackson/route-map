@@ -181,8 +181,8 @@ async function getViewFilePath(
     action
   );
 
-  if (await fileExists(viewFilePath + ".html.erb")) {
-    return viewFilePath + ".html.erb";
+  if (await fileExists(viewFilePath + ".html.haml")) {
+    return viewFilePath + ".html.haml";
   } else if (await fileExists(viewFilePath + ".json.jbuilder")) {
     return viewFilePath + ".json.jbuilder";
   } else {

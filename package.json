@@ -14,7 +14,7 @@
   ],
   "activationEvents": [
     "onLanguage:ruby",
-    "onLanguage:erb"
+    "onLanguage:haml"
   ],
   "main": "./out/extension.js",
   "contributes": {
@@ -27,10 +27,10 @@
         ]
       },
       {
-        "id": "erb",
+        "id": "haml",
         "extensions": [
-          ".erb",
-          ".html.erb"
+          ".haml",
+          ".html.haml"
         ]
       }
     ],
